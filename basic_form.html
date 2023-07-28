@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>basic_Form</title>
+        </head>
+
+        <body>
+            <form action="form handling url", method="">
+
+                <div>
+                    <label for="firstName">FirstName</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+
+                <div>
+                    <label for="lastName">LastName</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+            
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div>
+                    <label for="status">status</label>
+                    <select name="status" id="status">
+                        <option value="student">Student</option>
+                        <option value="instuctor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <p>Choose your favourate programming language</p>
+
+                <div class="radio_button_1">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label>
+
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label>
+
+                    <input type="radio" id="javaScript" name="fav_language" value="JAVASCRIPT">
+                    <label for="javaScript">JAVASCRIPT</label>
+                </div>
+
+                <div class="comments">
+                    <textarea name="comments" id="comments"></textarea>
+                    <label for="comments">Comments</label>
+                </div>
+
+                <div class="Date">
+                    <input type="date"  id="current_date" name="current_date" value="CURRENT_DATE" placeholder="Enter date">
+                    <label for="date">Current date</label>
+                </div>
+
+                <div class="newsletter">
+                    <input type="checkbox" id="sign-up" name="sign-up">
+                    <label for="sign-up">sign-up</label>
+
+
+                    <input type="checkbox" id="Terms and Services" name="Terms and Services">
+                    <label for="Terms and Services">Agree to terms and conditions</label>
+                    <button type="submit" id="submit">Submit</button>
+
+                </div>
+
+            </form>
+        </body>
+    </html>
